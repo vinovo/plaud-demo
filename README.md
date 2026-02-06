@@ -1,14 +1,14 @@
 # Clinical Transcription Demo
 
-Plaud is a mobile app for capturing **clinical recordings** and turning them into documentation. Record (or import) audio, review playback and transcription, then generate a **SOAP-format summary** (Subjective, Objective, Assessment, Plan) you can copy into your workflow.
+This project is a mobile app for capturing **clinical recordings** and turning them into documentation. Record (or import) audio, review playback and transcription, then generate a **SOAP-format summary** (Subjective, Objective, Assessment, Plan) you can copy into your workflow.
 
 Transcription (ASR) and summarization (LLM) are powered by the [**Nexa SDK**](https://docs.nexa.ai).
 
 ## Install from APK
 
 ```
-# Download: https://nexa-model-hub-bucket.s3.us-west-1.amazonaws.com/public/android-demo-release/plaud-demo.apk
-adb install plaud-demo.apk
+# Download: https://nexa-model-hub-bucket.s3.us-west-1.amazonaws.com/public/android-demo-release/clinical-transcription-demo.apk
+adb install clinical-transcription-demo.apk
 ```
 
 *Note: this is a debug build of the current project.
@@ -33,7 +33,7 @@ adb install plaud-demo.apk
 #### Option 1: Using Android Studio
 
 1. Open Android Studio and select **Open an existing project**
-2. Navigate to the `plaud` directory and open it
+2. Navigate to the `clinical-transcription-demo` directory and open it
 3. Wait for Gradle sync to complete
 4. Then choose one of the following:
 
@@ -74,7 +74,7 @@ adb install plaud-demo.apk
 
 ## Privacy
 
-Plaud is designed to process audio **on-device** (as reflected in the UI), without needing to send recordings to a remote server.
+The project is designed to process audio **on-device** (as reflected in the UI), without needing to send recordings to a remote server.
 
 ## Current capabilities
 
