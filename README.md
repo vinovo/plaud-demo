@@ -4,6 +4,14 @@ This project is a mobile app for capturing **clinical recordings** and turning t
 
 Transcription (ASR) and summarization (LLM) are powered by the [**Nexa SDK**](https://docs.nexa.ai).
 
+## Demo Video
+
+
+https://github.com/user-attachments/assets/3394306b-a7e9-4920-b45c-d4f3295c530f
+
+
+**(Note that audio processing in the video is sped up to reduce length)**
+
 ## Install from APK
 
 ```
