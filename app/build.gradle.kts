@@ -72,7 +72,7 @@ dependencies {
     implementation(libs.compose.richtext.ui.material3)
     
     // Nexa SDK for ASR and LLM
-    implementation("ai.nexa:core:0.0.21")
+    implementation("ai.nexa:core:0.0.22")
     
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
