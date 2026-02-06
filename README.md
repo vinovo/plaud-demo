@@ -1,4 +1,4 @@
-# Plaud
+# Clinical Transcription Demo
 
 Plaud is a mobile app for capturing **clinical recordings** and turning them into documentation. Record (or import) audio, review playback and transcription, then generate a **SOAP-format summary** (Subjective, Objective, Assessment, Plan) you can copy into your workflow.
 
