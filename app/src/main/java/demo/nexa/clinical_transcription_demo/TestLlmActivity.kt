@@ -1,4 +1,4 @@
-package demo.nexa.plauid
+package demo.nexa.clinical_transcription_demo
 
 import android.os.Bundle
 import android.widget.Button
@@ -9,8 +9,8 @@ import androidx.lifecycle.lifecycleScope
 import com.nexa.sdk.bean.ChatMessage
 import com.nexa.sdk.bean.GenerationConfig
 import com.nexa.sdk.bean.LlmStreamResult
-import demo.nexa.plauid.llm.LlmModelManager
-import demo.nexa.plauid.llm.NexaLlmEngine
+import demo.nexa.clinical_transcription_demo.llm.LlmModelManager
+import demo.nexa.clinical_transcription_demo.llm.NexaLlmEngine
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

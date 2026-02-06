@@ -1,11 +1,11 @@
-package demo.nexa.plauid.data.mapper
+package demo.nexa.clinical_transcription_demo.data.mapper
 
-import demo.nexa.plauid.common.formatElapsedTime
-import demo.nexa.plauid.data.local.entity.RecordingNoteEntity
-import demo.nexa.plauid.domain.model.NoteSource
-import demo.nexa.plauid.domain.model.NoteStatus
-import demo.nexa.plauid.domain.model.RecordingNote
-import demo.nexa.plauid.ui.state.NoteUiState
+import demo.nexa.clinical_transcription_demo.common.formatElapsedTime
+import demo.nexa.clinical_transcription_demo.data.local.entity.RecordingNoteEntity
+import demo.nexa.clinical_transcription_demo.domain.model.NoteSource
+import demo.nexa.clinical_transcription_demo.domain.model.NoteStatus
+import demo.nexa.clinical_transcription_demo.domain.model.RecordingNote
+import demo.nexa.clinical_transcription_demo.ui.state.NoteUiState
 import org.json.JSONArray
 import java.text.SimpleDateFormat
 import java.util.Date

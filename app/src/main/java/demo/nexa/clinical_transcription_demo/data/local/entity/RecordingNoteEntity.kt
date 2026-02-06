@@ -1,4 +1,4 @@
-package demo.nexa.plauid.data.local.entity
+package demo.nexa.clinical_transcription_demo.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

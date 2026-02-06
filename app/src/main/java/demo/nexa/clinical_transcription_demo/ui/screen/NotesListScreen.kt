@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.screen
+package demo.nexa.clinical_transcription_demo.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -41,11 +41,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import demo.nexa.plauid.ui.component.NoteCard
-import demo.nexa.plauid.ui.state.NoteUiState
-import demo.nexa.plauid.ui.theme.PlauColors
-import demo.nexa.plauid.ui.theme.PlauDimens
-import demo.nexa.plauid.ui.theme.PlauGradients
+import demo.nexa.clinical_transcription_demo.ui.component.NoteCard
+import demo.nexa.clinical_transcription_demo.ui.state.NoteUiState
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauColors
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauDimens
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauGradients
 
 @Composable
 fun NotesListScreen(

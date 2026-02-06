@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.theme
+package demo.nexa.clinical_transcription_demo.ui.theme
 
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color

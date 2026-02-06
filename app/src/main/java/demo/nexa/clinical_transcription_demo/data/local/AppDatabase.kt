@@ -1,11 +1,11 @@
-package demo.nexa.plauid.data.local
+package demo.nexa.clinical_transcription_demo.data.local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import demo.nexa.plauid.data.local.dao.RecordingNoteDao
-import demo.nexa.plauid.data.local.entity.RecordingNoteEntity
+import demo.nexa.clinical_transcription_demo.data.local.dao.RecordingNoteDao
+import demo.nexa.clinical_transcription_demo.data.local.entity.RecordingNoteEntity
 
 /**
  * Room database for the Plauid app.

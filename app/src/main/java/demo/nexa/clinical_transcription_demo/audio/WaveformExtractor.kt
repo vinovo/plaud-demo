@@ -1,4 +1,4 @@
-package demo.nexa.plauid.audio
+package demo.nexa.clinical_transcription_demo.audio
 
 import android.media.MediaCodec
 import android.media.MediaExtractor

@@ -1,4 +1,4 @@
-package demo.nexa.plauid
+package demo.nexa.clinical_transcription_demo
 
 import org.junit.Test
 

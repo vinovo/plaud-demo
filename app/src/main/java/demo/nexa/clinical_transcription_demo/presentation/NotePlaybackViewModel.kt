@@ -1,15 +1,15 @@
-package demo.nexa.plauid.presentation
+package demo.nexa.clinical_transcription_demo.presentation
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import demo.nexa.plauid.audio.AudioPlayer
-import demo.nexa.plauid.common.BackgroundProgressManager
-import demo.nexa.plauid.data.repository.NotesRepository
-import demo.nexa.plauid.domain.model.NoteStatus
-import demo.nexa.plauid.domain.model.RecordingNote
-import demo.nexa.plauid.llm.NexaLlmEngine
-import demo.nexa.plauid.llm.SoapGenerationResult
+import demo.nexa.clinical_transcription_demo.audio.AudioPlayer
+import demo.nexa.clinical_transcription_demo.common.BackgroundProgressManager
+import demo.nexa.clinical_transcription_demo.data.repository.NotesRepository
+import demo.nexa.clinical_transcription_demo.domain.model.NoteStatus
+import demo.nexa.clinical_transcription_demo.domain.model.RecordingNote
+import demo.nexa.clinical_transcription_demo.llm.NexaLlmEngine
+import demo.nexa.clinical_transcription_demo.llm.SoapGenerationResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

@@ -1,4 +1,4 @@
-package demo.nexa.plauid
+package demo.nexa.clinical_transcription_demo
 
 import android.content.Intent
 import android.os.Bundle
@@ -20,14 +20,14 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import demo.nexa.plauid.data.mapper.toUiState
-import demo.nexa.plauid.data.repository.NotesRepository
-import demo.nexa.plauid.presentation.MainViewModel
-import demo.nexa.plauid.presentation.RecordingViewModel
-import demo.nexa.plauid.ui.component.LoadingOverlay
-import demo.nexa.plauid.ui.screen.NoteDetailScreen
-import demo.nexa.plauid.ui.screen.NotesListScreen
-import demo.nexa.plauid.ui.screen.RecordingScreen
+import demo.nexa.clinical_transcription_demo.data.mapper.toUiState
+import demo.nexa.clinical_transcription_demo.data.repository.NotesRepository
+import demo.nexa.clinical_transcription_demo.presentation.MainViewModel
+import demo.nexa.clinical_transcription_demo.presentation.RecordingViewModel
+import demo.nexa.clinical_transcription_demo.ui.component.LoadingOverlay
+import demo.nexa.clinical_transcription_demo.ui.screen.NoteDetailScreen
+import demo.nexa.clinical_transcription_demo.ui.screen.NotesListScreen
+import demo.nexa.clinical_transcription_demo.ui.screen.RecordingScreen
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.map
 

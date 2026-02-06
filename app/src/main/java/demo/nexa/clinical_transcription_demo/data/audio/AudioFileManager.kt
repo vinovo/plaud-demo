@@ -1,4 +1,4 @@
-package demo.nexa.plauid.data.audio
+package demo.nexa.clinical_transcription_demo.data.audio
 
 import android.content.Context
 import android.net.Uri

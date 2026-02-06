@@ -1,10 +1,10 @@
-package demo.nexa.plauid.data.local.dao
+package demo.nexa.clinical_transcription_demo.data.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import demo.nexa.plauid.data.local.entity.RecordingNoteEntity
+import demo.nexa.clinical_transcription_demo.data.local.entity.RecordingNoteEntity
 import kotlinx.coroutines.flow.Flow
 
 /**

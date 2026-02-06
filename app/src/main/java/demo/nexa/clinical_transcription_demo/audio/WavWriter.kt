@@ -1,4 +1,4 @@
-package demo.nexa.plauid.audio
+package demo.nexa.clinical_transcription_demo.audio
 
 import java.io.File
 import java.io.RandomAccessFile

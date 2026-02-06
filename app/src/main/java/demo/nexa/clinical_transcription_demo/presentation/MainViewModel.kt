@@ -1,4 +1,4 @@
-package demo.nexa.plauid.presentation
+package demo.nexa.clinical_transcription_demo.presentation
 
 import android.app.Application
 import android.content.ContentResolver
@@ -7,10 +7,10 @@ import android.net.Uri
 import android.provider.OpenableColumns
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import demo.nexa.plauid.common.formatDateForDisplay
-import demo.nexa.plauid.data.audio.AudioFileManager
-import demo.nexa.plauid.data.local.AppDatabase
-import demo.nexa.plauid.data.repository.NotesRepository
+import demo.nexa.clinical_transcription_demo.common.formatDateForDisplay
+import demo.nexa.clinical_transcription_demo.data.audio.AudioFileManager
+import demo.nexa.clinical_transcription_demo.data.local.AppDatabase
+import demo.nexa.clinical_transcription_demo.data.repository.NotesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow

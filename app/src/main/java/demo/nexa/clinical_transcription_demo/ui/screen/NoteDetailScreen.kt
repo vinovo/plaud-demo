@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.screen
+package demo.nexa.clinical_transcription_demo.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -62,19 +62,19 @@ import android.widget.Toast
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.halilibo.richtext.markdown.Markdown
 import com.halilibo.richtext.ui.material3.Material3RichText
-import demo.nexa.plauid.R
-import demo.nexa.plauid.common.formatDateForDisplay
-import demo.nexa.plauid.common.formatDurationForDisplay
-import demo.nexa.plauid.common.formatElapsedTime
-import demo.nexa.plauid.domain.model.NoteStatus
-import demo.nexa.plauid.presentation.NotePlaybackViewModel
-import demo.nexa.plauid.presentation.PlaybackUiState
-import demo.nexa.plauid.ui.component.GradientOutlineStatusRow
-import demo.nexa.plauid.ui.component.GradientPillButton
-import demo.nexa.plauid.ui.component.PlaybackWaveformView
-import demo.nexa.plauid.ui.theme.PlauColors
-import demo.nexa.plauid.ui.theme.PlauDimens
-import demo.nexa.plauid.ui.theme.PlauGradients
+import demo.nexa.clinical_transcription_demo.R
+import demo.nexa.clinical_transcription_demo.common.formatDateForDisplay
+import demo.nexa.clinical_transcription_demo.common.formatDurationForDisplay
+import demo.nexa.clinical_transcription_demo.common.formatElapsedTime
+import demo.nexa.clinical_transcription_demo.domain.model.NoteStatus
+import demo.nexa.clinical_transcription_demo.presentation.NotePlaybackViewModel
+import demo.nexa.clinical_transcription_demo.presentation.PlaybackUiState
+import demo.nexa.clinical_transcription_demo.ui.component.GradientOutlineStatusRow
+import demo.nexa.clinical_transcription_demo.ui.component.GradientPillButton
+import demo.nexa.clinical_transcription_demo.ui.component.PlaybackWaveformView
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauColors
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauDimens
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauGradients
 import java.util.Date
 
 @Composable
@@ -522,7 +522,7 @@ private fun TranscriptSegmentView(
  */
 @Composable
 private fun TranscriptionTabContent(
-    note: demo.nexa.plauid.domain.model.RecordingNote,
+    note: demo.nexa.clinical_transcription_demo.domain.model.RecordingNote,
     transcriptionProgress: Int?,
     duration: String,
     navigationBarsPadding: androidx.compose.foundation.layout.PaddingValues,

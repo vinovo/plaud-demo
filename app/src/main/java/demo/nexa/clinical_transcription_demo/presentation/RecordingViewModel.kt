@@ -1,13 +1,13 @@
-package demo.nexa.plauid.presentation
+package demo.nexa.clinical_transcription_demo.presentation
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import demo.nexa.plauid.audio.AudioRecorder
-import demo.nexa.plauid.audio.AudioTranscoder
-import demo.nexa.plauid.common.formatDateForFilename
-import demo.nexa.plauid.data.audio.AudioFileManager
-import demo.nexa.plauid.data.repository.NotesRepository
+import demo.nexa.clinical_transcription_demo.audio.AudioRecorder
+import demo.nexa.clinical_transcription_demo.audio.AudioTranscoder
+import demo.nexa.clinical_transcription_demo.common.formatDateForFilename
+import demo.nexa.clinical_transcription_demo.data.audio.AudioFileManager
+import demo.nexa.clinical_transcription_demo.data.repository.NotesRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

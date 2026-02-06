@@ -1,4 +1,4 @@
-package demo.nexa.plauid.domain.model
+package demo.nexa.clinical_transcription_demo.domain.model
 
 /**
  * Domain model for a recording note.

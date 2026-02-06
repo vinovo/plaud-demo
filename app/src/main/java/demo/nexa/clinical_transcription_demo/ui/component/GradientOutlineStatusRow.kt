@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.component
+package demo.nexa.clinical_transcription_demo.ui.component
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -21,8 +21,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import demo.nexa.plauid.ui.theme.PlauDimens
-import demo.nexa.plauid.ui.theme.PlauGradients
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauDimens
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauGradients
 import androidx.compose.ui.graphics.Color
 
 /**

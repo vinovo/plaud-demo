@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.state
+package demo.nexa.clinical_transcription_demo.ui.state
 
 data class NoteUiState(
     val id: String,

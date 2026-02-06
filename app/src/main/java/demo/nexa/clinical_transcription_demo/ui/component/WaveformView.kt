@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.component
+package demo.nexa.clinical_transcription_demo.ui.component
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -20,7 +20,7 @@ import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.drawscope.Fill
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import demo.nexa.plauid.ui.theme.PlauColors
+import demo.nexa.clinical_transcription_demo.ui.theme.PlauColors
 
 // Sample waveform heights (simulating audio data)
 private val sampleHeights = listOf(

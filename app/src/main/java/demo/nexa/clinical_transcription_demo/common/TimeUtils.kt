@@ -1,4 +1,4 @@
-package demo.nexa.plauid.common
+package demo.nexa.clinical_transcription_demo.common
 
 import java.text.SimpleDateFormat
 import java.util.Date

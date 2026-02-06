@@ -1,4 +1,4 @@
-package demo.nexa.plauid.ui.component
+package demo.nexa.clinical_transcription_demo.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

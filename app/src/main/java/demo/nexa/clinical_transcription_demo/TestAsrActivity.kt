@@ -1,4 +1,4 @@
-package demo.nexa.plauid
+package demo.nexa.clinical_transcription_demo
 
 import android.os.Bundle
 import android.widget.Button
@@ -6,7 +6,7 @@ import android.widget.ScrollView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import demo.nexa.plauid.asr.NexaAsrEngine
+import demo.nexa.clinical_transcription_demo.asr.NexaAsrEngine
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

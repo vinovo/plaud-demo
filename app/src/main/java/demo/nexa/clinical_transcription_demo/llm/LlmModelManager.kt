@@ -1,4 +1,4 @@
-package demo.nexa.plauid.llm
+package demo.nexa.clinical_transcription_demo.llm
 
 import android.content.Context
 import android.util.Log
