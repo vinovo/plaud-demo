@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">plauid</string>
+    
+    <!-- Note detail screen -->
+    <string name="loading">Loading…</string>
+    <string name="transcribing">Transcribing…</string>
+    <string name="transcribing_progress">Transcribing (%1$d%%)…</string>
+    <string name="transcription_failed">Transcription failed</string>
+    <string name="no_transcript_yet">No transcript yet</string>
+    <string name="transcription_tab">Transcription</string>
+    <string name="summary_tab">Summary</string>
+    <string name="generate_summary">Generate Summary</string>
+    <string name="generating_summary">Generating Summary…</string>
+    <string name="back">Back</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    
+    <!-- LLM status messages -->
+    <string name="llm_model_not_available">LLM model not available</string>
+    <string name="llm_initializing">Initializing AI model…</string>
+    <string name="llm_generation_failed">Failed to generate summary</string>
+</resources>
